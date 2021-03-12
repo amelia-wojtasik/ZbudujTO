@@ -494,6 +494,11 @@ footer .logo{
             padding-top: 1%;
         }
 
+        nav img{
+            height: 10vh;
+        }
+
+
     /***************************/
     
         .main_bcg {
@@ -524,7 +529,6 @@ footer .logo{
             width: 80%;
             padding: 4%;
         }
-
     
     /***************************/   
 
