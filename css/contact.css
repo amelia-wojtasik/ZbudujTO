@@ -42,10 +42,9 @@ nav ul li a:hover{
    border-bottom: rgb(255, 196, 0) solid 2px;
 }
 
-/*****logo******/
-
-nav .logo{
-    width: 30%;
+.main_title img{
+    height: 20vh;
+    margin-bottom: 1%;
 }
 
 /***************************/
@@ -132,9 +131,10 @@ main .form{
 }
 
 .form{
+    display: none;
     height: 80%;
     width: 40vw;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     flex-direction: column;
     justify-content: center;
@@ -212,7 +212,11 @@ footer h4{
 /*****logo*****/
 
 footer .logo{
-    width: 50%;
+    justify-self: flex-end;
+}
+
+.logo img{
+    height: 30vh;
 }
 
 @media only screen and (max-width:480px) {
